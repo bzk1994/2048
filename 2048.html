@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <title> New Document </title>
+  <link rel="stylesheet" href="2048.css" />
+ </head>
+ <body>
+	<!-- 标题 -->
+	<header>
+		<h1>2048</h1>
+	</header>
+	<!-- 游戏面板 -->
+	<div id="gamePanel">
+		<p>
+			<!-- 操作栏 -->
+			<a class="button" id="newGame">New Game</a>
+			Score: <span id="score">0</span>
+		</p>
+		<div id="gridePanel">
+			<!-- 背景格子 -->
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<div class="grid"></div>
+			<!-- 带数字的格子 -->
+
+			<div class="cell num2" id="cell00"></div>
+			<div class="cell num4" id="cell01"></div>
+			<div class="cell num8" id="cell02"></div>
+			<div class="cell num16" id="cell03"></div>
+			<div class="cell num32" id="cell10"></div>
+			<div class="cell num64" id="cell11"></div>
+			<div class="cell num128" id="cell12"></div>
+			<div class="cell num256" id="cell13"></div>
+			<div class="cell num512" id="cell20"></div>
+			<div class="cell num1024" id="cell21"></div>
+			<div class="cell num2048" id="cell22"></div>
+			<div class="cell num4096" id="cell23"></div>
+			<div class="cell num8192" id="cell30"></div>
+			<div class="cell" id="cell31"></div>
+			<div class="cell" id="cell32"></div>
+			<div class="cell" id="cell33"></div>
+		</div>
+		<!-- 游戏结束面板 -->
+		<div id="gameOver">
+			<p>
+				Game Over! <br />
+				Score: <span id="finalScore">0</span><br />
+				<a href="" class="button" id="restart">try again</a>
+			</p>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="2048.js">
+		
+	</script>
+ </body>
+</html>
